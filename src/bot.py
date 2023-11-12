@@ -101,7 +101,7 @@ def run_discord_bot():
                 client.openAI_gpt_engine = "gpt-3.5-turbo"
                 client.chat_model = "OFFICIAL"
             elif choices.value == "OFFICIAL-GPT4":
-                client.openAI_gpt_engine = "gpt-4"
+                client.openAI_gpt_engine = "gpt-4-1106-preview"
                 client.chat_model = "OFFICIAL"
             elif choices.value == "UNOFFICIAL":
                 client.openAI_gpt_engine = "gpt-3.5-turbo"
